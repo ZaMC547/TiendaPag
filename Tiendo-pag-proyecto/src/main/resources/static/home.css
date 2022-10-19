@@ -20,6 +20,12 @@ li{
 	text-align: right;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+	padding: 14px 15px;
+}
+
 ul{
 	text-align: right;
 	
