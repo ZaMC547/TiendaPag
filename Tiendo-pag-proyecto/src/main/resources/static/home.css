@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.super {
+	text-align: right;
+	padding: 20px;
+	border-radius: 20px;
+/*	border-style: solid; */
+	border-width: 75px;	 
+}
+#enla {
+	margin-top: 60px;
+	font-size: 20px;
+	background-color:  #ffdb4d;
+	border-radius: 5px;
+	background-size: 400px;
+}
+
+li{
+	display: inline;
+	text-align: right;
+}
+
+ul{
+	text-align: right;
+	
+}
+
+img {
+	padding-left: 80px;
+}
+
+.tex {
+	font-size: 20px;
+} 
+
+#medio {
+	text-align:right;
+	border: 9px;
+	border-color: green; 
+	padding-left: 110;
+	position: absolute;
+	bottom: 255px;
+	right: 45px;
+	
+}
+
+
+
+.tex2 {
+	font-size: 50px;
+}
+
+.enla2 {
+	font-size: 30px;
+}
+
+#inferior {
+	background-color:rgb(250, 240, 230);
+	position: absolute;
+	bottom: 50px;
+	font-size: 20px;
+	padding-left: 150px;
+}
+
+
+
+
+
+
+
+
+	

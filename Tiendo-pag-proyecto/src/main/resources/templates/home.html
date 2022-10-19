@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="home.css"></link>
+<title th:text="${titulo}"></title>
+</head>
+<body>
+<header>
+	<ul>
+	<li><p th:text="${mensaje}" class="tex"></p>
+	<li><a href="producto" id="enla" >Productos</a>
+	<li><a href="InicioSesion" id="enla" >Iniciar Sesion</a>
+	<li><a href="Registro" id="enla" >Registrarse</a>
+	</ul>
+</header>	
+
+	<div id="medio">
+	<p th:text="${mensaje}" class="tex2"></p>
+	<p th:text="${mensaje}" class="tex2"></p>
+	<a href="" class="enla2">Enlace4</a>
+	</div>
+	<img th:src="@{/images/design.png}" width="400" height="400">
+	
+	<div id="inferior">
+	<h3>Lorem imsum</h3>
+	<p th:text="${menaj}" ></p>
+	</div>
+	
+	
+	
+</body>
+</html>
