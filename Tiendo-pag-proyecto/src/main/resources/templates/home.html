@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="home.css"></link>
-<title th:text="${titulo}"></title>
+<title th:text="${titlehome}"></title>
 </head>
 <body>
 <header>
@@ -23,11 +23,18 @@
 	<img th:src="@{/images/design.png}" width="400" height="400">
 	
 	<div id="inferior">
-	<h3>Lorem imsum</h3>
-	<p th:text="${menaj}" ></p>
+	<h3 th:text="${product}"></h3>
+	<table>
+		<tr th:each="produc :${menaj}" >
+			
+			<th th:text="${produc.getNombre}"></th>
+			<th th:text="-----"></th>
+			<th th:text="${produc.getPrecio}"></th>
+		</tr>
+	</table>
 	</div>
 	
-	
+	</table> 
 	
 </body>
 </html>

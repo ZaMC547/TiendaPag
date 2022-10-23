@@ -33,6 +33,7 @@ ul{
 
 img {
 	padding-left: 80px;
+	position:  relative;
 }
 
 .tex {
@@ -40,13 +41,14 @@ img {
 } 
 
 #medio {
+	
 	text-align:right;
 	border: 9px;
-	border-color: green; 
-	padding-left: 110;
-	position: absolute;
-	bottom: 255px;
-	right: 45px;
+	padding: 50px 20px; 
+	padding-left: 10;
+	
+	bottom: 5px;
+	right: 5px;
 	
 }
 
@@ -61,11 +63,13 @@ img {
 }
 
 #inferior {
-	background-color:rgb(250, 240, 230);
-	position: absolute;
+	
+	position: static;
 	bottom: 50px;
-	font-size: 20px;
-	padding-left: 150px;
+	font-size: 50px;
+	padding: 75px 75px; 
+	margin-left: 30px;
+	
 }
 
 
